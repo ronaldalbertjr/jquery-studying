@@ -36,6 +36,5 @@ $(document).ready(function(){
 	});
 
 	$('p').html("Meu nome é ronald");
-
-	
+	$('.movediv').animate({ left: '-=100px'}, 1000);
 });
